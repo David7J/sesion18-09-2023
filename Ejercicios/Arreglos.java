@@ -21,7 +21,7 @@ public class Arreglos {
         System.out.println("Ingrese las notas del grupo y el nombre de cada uno:");
         for(int i = 0; i < notas.length ; i++) {
             System.out.print("Estudiante: [" + (i+1) + "] = ");
-            nombres[i] = lector.nextLine();
+            nombres[i] = lector.next();
 
             System.out.print("Nota [" + (i+1) + "] = ");
             notas[i] = lector.nextInt();
